@@ -1,0 +1,37 @@
+<html>
+    <head>
+      <title>fuzzy sugeno</title>
+        <script type="text/javascript" src="fuzzy-sugeno.js">  </script>
+    </head>
+    <body>
+        <h1>permasalahan produksi makanan kaleng</h1>
+        <br>
+        Permintaan:
+        <input type="text" id="permintaan">
+        <br><br>
+        Persediaan:
+        <input type="text" id="persediaan" >
+        <br><br>
+        <input type="button" onclick="calculateProduksi()" value="Calculate">
+        <hr>
+        Set Minimum Permintaan:
+        <input type="text" id="newMinPermintaan">
+        <input type="button" onclick="setMinPermintaan()" value="Set">        
+        <br><br>
+        Set Maximum Permintaan:
+        <input type="text" id="newMaxPermintaan">
+        <input type="button" onclick="setMaxPermintaan()" value="Set">        
+        <br><br>
+        Set Minimum Persediaan:
+        <input type="text" id="newMinPersediaan">
+        <input type="button" onclick="setMinPersediaan()" value="Set">        
+        <br><br>
+        Set Maximum Persediaan:
+        <input type="text" id="newMaxPersediaaan">
+        <input type="button" onclick="setMaxPersediaan()" value="Set">        
+        <br>
+        <br>
+        <input type="button" onclick="resetMinMax()" value="Reset">        
+
+    </body>
+</html>
